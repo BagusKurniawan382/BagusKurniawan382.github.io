@@ -11,6 +11,9 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -48,7 +51,7 @@
     <section class="jumbotron text-center">
         <img src="img/1697187914751.jpg" alt="Bagus Kurniawan" class="rounded-circle img-thumbnail" width="250px">
         <h1 class="display-4">Bagus Kurniawan</h1>
-        <p class="lead">Student</p>
+        <p class="lead"></p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#fff" fill-opacity="1"
                 d="M0,160L40,165.3C80,171,160,181,240,176C320,171,400,149,480,122.7C560,96,640,64,720,74.7C800,85,880,139,960,154.7C1040,171,1120,149,1200,128C1280,107,1360,85,1400,74.7L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
@@ -66,12 +69,12 @@
                 </div>
             </div>
             <div class="row justify-content-center fs-5 text-center">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-right">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab officiis suscipit quasi
                         est ratione
                         ea! Incidunt numquam sit adipisci repellendus.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non vitae ipsum ab a error
                         ullam odit
                         autem, corrupti veniam fugit, similique aperiam ut accusantium rerum.</p>
@@ -96,7 +99,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500">
                         <img src="img/projects/1.jpg" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -105,7 +108,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
                         <img src="img/projects/2.jpg" class="card-img-top" alt="Project 2">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -114,7 +117,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
                         <img src="img/projects/3.jpg" class="card-img-top" alt="Project 3">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -123,7 +126,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
                         <img src="img/projects/4.jpg" class="card-img-top" alt="Project 4">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -132,7 +135,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
                         <img src="img/projects/5.jpg" class="card-img-top" alt="Project 5">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -149,6 +152,71 @@
         </svg>
     </section>
     <!-- Akhir Projects -->
+
+    <!-- Gallery -->
+    <section id="gallery">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Gallery</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/thumbnail/1.jpeg" alt="Gambar 1" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/thumbnail/2.jpg" alt="Gambar 2" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/thumbnail/3.webp" alt="Gambar 3" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/thumbnail/4.png" alt="Gambar 4" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/thumbnail/5.jpeg" alt="Gambar 5" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/thumbnail/6.jpg" alt="Gambar 6" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/thumbnail/7.webp" alt="Gambar 7" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/thumbnail/8.jpg" alt="Gambar 8" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/thumbnail/9.jpg" alt="Gambar 9" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/thumbnail/10.jfif" alt="Gambar 10" class="img-fluid gallery-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Akhir Gallery -->
 
     <!-- Contact -->
     <section id="contact">
@@ -237,6 +305,32 @@
                 })
                 .catch(error => console.error('Error!', error.message))
         });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        const galleryImage = document.querySelectorAll('.gallery-img');
+
+        galleryImage.forEach((img, i) => {
+            img.dataset.aos = 'fade-down';
+            img.dataset.aosDelay = i * 100;
+            img.dataset.aosDuration = 1000;
+        });
+
+        AOS.init({
+            once: true,
+            duration: 2000,
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/TextPlugin.min.js"></script>
+    <script>
+        gsap.registerPlugin(TextPlugin);
+        gsap.to('.lead', { duration: 2, delay: 1.5, text: 'Student' });
+        gsap.from('.jumbotron img', { duration: 1, rotateY: 360, opacity: 0 });
+        gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce' });
+        gsap.from('.display-4', { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'back' });
     </script>
 </body>
 
