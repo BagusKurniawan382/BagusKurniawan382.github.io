@@ -153,6 +153,39 @@
     </section>
     <!-- Akhir Projects -->
 
+    <section id="my-keyboards">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>My Keyboards</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="keyboard-box">
+                        <h4 class="keyboard-name">Keychron K2</h4>
+                        <img src="img/keyboards/1.png" alt="Keychron K2" class="keyboard-img">
+                        <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="keyboard-box">
+                        <h4 class="keyboard-name">Womier RGB</h4>
+                        <img src="img/keyboards/2.png" alt="Womier RGB" class="keyboard-img">
+                        <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="keyboard-box">
+                        <h4 class="keyboard-name">Red Dragon</h4>
+                        <img src="img/keyboards/3.png" alt="Red Dragon" class="keyboard-img">
+                        <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Gallery -->
     <section id="gallery">
         <div class="container">
@@ -331,6 +364,15 @@
         gsap.from('.jumbotron img', { duration: 1, rotateY: 360, opacity: 0 });
         gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce' });
         gsap.from('.display-4', { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'back' });
+    </script>
+
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll('.keyboard-box'), {
+            max: 35,
+            speed: 1000,
+            glare: true
+        });        
     </script>
 </body>
 
